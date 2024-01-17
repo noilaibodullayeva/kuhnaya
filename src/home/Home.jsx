@@ -13,6 +13,7 @@ import Img10 from "../img/savatyostiq.webp"
 import Img11 from "../img/yostiq.webp"
 import Img12 from "../img/kaktus.webp"
 import Img13 from "../img/oqgul.webp"
+import Footer from '../footer/Footer'
 
 
 export default function Home() {
@@ -61,6 +62,7 @@ export default function Home() {
                     <Box sx={styles.img3}></Box>
                 </Box>
             </Box>
+            <Footer/>
         </Box>
     )
 }

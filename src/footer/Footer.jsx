@@ -44,7 +44,7 @@ export default function Footer() {
 const styles = {
   footerBox: {
     backgroundColor: '#577175',
-    width: '100%',
+    width: {md:'100%', xs:'auto'},
     display: 'flex',
     flexDirection: {md:'row', xs:'column'},
     justifyContent: 'center',

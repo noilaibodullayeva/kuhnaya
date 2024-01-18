@@ -14,87 +14,90 @@ import Footer from '../footer/Footer'
 export default function Kitchen() {
     return (
         <Box>
-            <Typography sx={styles.kitchenn}>Kitchen</Typography>
-            <Box sx={{ flexGrow: 1 }}>
-              <Box sx={styles.KitchenBox}>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img15} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
+            <Box sx={styles.interior}>
+                <Typography sx={styles.kitchenn}>Kitchen</Typography>
+                <Box sx={{ flexGrow: 1 }}>
+                    <Box sx={styles.KitchenBox}>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img15} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img16} alt="img16" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img17} alt="img17" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img18} alt="img18" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img19} alt="img19" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img20} alt="img20" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img21} alt="img21" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img22} alt="img22" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img23} alt="img23" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img15} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img16} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img17} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img20} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img22} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                        <Box item xs={3} sx={styles.boxInsideKitchen}>
+                            <img src={Img19} alt="img15" />
+                            <Typography sx={styles.typoProduct}>Our Product</Typography>
+                            <Typography sx={styles.typoPrice}>$66.00</Typography>
+                        </Box>
+                    </Box>
                 </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img16} alt="img16" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img17} alt="img17" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img18} alt="img18" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img19} alt="img19" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img20} alt="img20" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img21} alt="img21" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img22} alt="img22" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img23} alt="img23" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img15} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img16} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img17} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img20} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img22} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-                <Box item xs={3} sx={styles.boxInsideKitchen}>
-                    <img src={Img19} alt="img15" />
-                    <Typography sx={styles.typoProduct}>Our Product</Typography>
-                    <Typography sx={styles.typoPrice}>$66.00</Typography>
-                </Box>
-            </Box>  
             </Box>
-            
+
+
             <Footer />
         </Box>
     )
@@ -104,26 +107,32 @@ const styles = {
     kitchenn: {
         fontSize: '30px',
         color: '#405357',
-        textAlign:'left',
-        mt:'100px',
-        ml:'10%',
+        textAlign: 'left',
+        mt: '100px',
+        ml: '10%',
     },
     KitchenBox: {
-        display: {md:'grid', xs:'flex'},
+        display: { md: 'grid', xs: 'flex' },
         gap: '20px',
-        gridTemplateColumns : 'auto auto auto auto',
-        flexDirection: {md:0, xs:'column'}
+        gridTemplateColumns: 'auto auto auto auto',
+        flexDirection: { md: 0, xs: 'column' }
     },
     typoProduct: {
         textTransform: 'uppercase',
         fontSize: '18px',
-        color:'#666'
+        color: '#666'
     },
     typoPrice: {
         fontSize: '16px',
-        color:'#666'
+        color: '#666'
     },
-    boxInsideKitchen:{
-        ml:{md:0, xs:'10%'}
+    boxInsideKitchen: {
+        ml: { md: 0, xs: '10%' }
+    },
+    interior: {
+        width: '70%',
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column'
     }
 }

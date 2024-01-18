@@ -29,40 +29,43 @@ export default function Home() {
                 </Box>
             </Box>
 
+
             <Box sx={styles.home2}>
-                <Box sx={styles.second1}></Box>
-                <Box sx={styles.second2}>
-                    <Box sx={styles.img1}></Box>
-                    <Box sx={styles.img2}></Box>
-                </Box>
-                <Box sx={styles.second3}>
-                    <Box sx={styles.boxText}><Typography sx={styles.decor}>Decor</Typography></Box>
-                    <Box sx={styles.img3}></Box>
+                <Box sx={styles.interior}>
+                    <Box sx={styles.home2}>
+                        <Box sx={styles.second1}></Box>
+                        <Box sx={styles.second2}>
+                            <Box sx={styles.img1}></Box>
+                            <Box sx={styles.img2}></Box>
+                        </Box>
+                        <Box sx={styles.second3}>
+                            <Box sx={styles.boxText}><Typography sx={styles.decor}>Decor</Typography></Box>
+                            <Box sx={styles.img3}></Box>
+                        </Box>
+                    </Box>
+                    <Box sx={styles.home2}>
+                        <Box sx={styles.second3}>
+                            <Box sx={styles.boxText}><Typography sx={styles.decor}>Kitchen</Typography></Box>
+                            <Box sx={styles.img4}></Box>
+                        </Box>
+                        <Box sx={styles.second5}></Box>
+                        <Box sx={styles.second2}>
+                            <Box sx={styles.img6}></Box>
+                            <Box sx={styles.img7}></Box>
+                        </Box>
+                    </Box>
+                    <Box sx={styles.second11}></Box>
+                    <Box sx={styles.second2}>
+                        <Box sx={styles.img11}></Box>
+                        <Box sx={styles.img21}></Box>
+                    </Box>
+                    <Box sx={styles.second3}>
+                        <Box sx={styles.boxText}><Typography sx={styles.decor}>Bedroom</Typography></Box>
+                        <Box sx={styles.img3}></Box>
+                    </Box>
                 </Box>
             </Box>
-            <Box sx={styles.home2}>
-                <Box sx={styles.second3}>
-                    <Box sx={styles.boxText}><Typography sx={styles.decor}>Kitchen</Typography></Box>
-                    <Box sx={styles.img4}></Box>
-                </Box>
-                <Box sx={styles.second5}></Box>
-                <Box sx={styles.second2}>
-                    <Box sx={styles.img6}></Box>
-                    <Box sx={styles.img7}></Box>
-                </Box>
-            </Box>
-            <Box sx={styles.home2}>
-                <Box sx={styles.second11}></Box>
-                <Box sx={styles.second2}>
-                    <Box sx={styles.img11}></Box>
-                    <Box sx={styles.img21}></Box>
-                </Box>
-                <Box sx={styles.second3}>
-                    <Box sx={styles.boxText}><Typography sx={styles.decor}>Bedroom</Typography></Box>
-                    <Box sx={styles.img3}></Box>
-                </Box>
-            </Box>
-            <Footer/>
+            <Footer />
         </Box>
     )
 }
@@ -184,7 +187,7 @@ const styles = {
         marginTop: 0,
         backgroundPositionY: 1,
     },
-    img4:{
+    img4: {
         backgroundImage: `url(${Img6})`,
         // width: '350px',
         flex: '4',
@@ -192,9 +195,9 @@ const styles = {
         height: '530px',
         backgroundSize: "cover",
         marginTop: 0,
-        backgroundPositionY: 1, 
+        backgroundPositionY: 1,
     },
-    second5:{
+    second5: {
         backgroundImage: `url(${Img7})`,
         // width: '350px',
         backgroundRepeat: "no-repeat",
@@ -204,7 +207,7 @@ const styles = {
         backgroundPositionY: 1,
         flex: '4'
     },
-    img6:{
+    img6: {
         backgroundImage: `url(${Img8})`,
         // width: '350px',
         backgroundRepeat: "no-repeat",
@@ -213,7 +216,7 @@ const styles = {
         marginTop: 0,
         backgroundPositionY: 1,
     },
-    img7:{
+    img7: {
         backgroundImage: `url(${Img9})`,
         // width: '350px',
         backgroundRepeat: "no-repeat",
@@ -260,4 +263,10 @@ const styles = {
         marginTop: 0,
         backgroundPositionY: 1,
     },
+    interior: {
+        width: '1000px',
+        display: 'flex',
+        justifyContent: 'center',
+        flexDirection: 'column'
+    }
 }

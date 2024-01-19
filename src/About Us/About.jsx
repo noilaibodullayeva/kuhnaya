@@ -16,12 +16,13 @@ export default function About() {
                 flexDirection: 'column',
                 justifyContent: 'center',
                 alignItems: 'baseline',
-                backgroundColor: '#EDEFF0'
+                backgroundColor: '#EDEFF0',
+                width:'100%'
             }}>
 
                 <Box sx={styles.boxAbout}>
                     <Box sx={styles.boxTypoAbout}>
-                        <Typography sx={styles.aboutWord}>About Us</Typography>
+                        <Typography sx={styles.aboutWord1}>About Us</Typography>
                         <Typography sx={styles.loremAbout}>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod aliquid dolorem, omnis, ex sequi vero odit saepe repellat nam voluptate ipsam? Commodi molestias deleniti sit debitis exercitationem corporis autem reprehenderit.
                         </Typography>
@@ -84,6 +85,12 @@ export default function About() {
 
 const styles = {
     aboutWord: {
+        fontSize: '30px',
+        color: '#405357',
+        textAlign: 'left',
+        padding: { md: '10px', xs: '0 30px' }
+    },
+    aboutWord1: {
         fontSize: '30px',
         color: '#405357',
         textAlign: 'left',

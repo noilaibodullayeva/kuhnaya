@@ -88,7 +88,7 @@ const styles = {
         fontSize: '30px',
         color: '#405357',
         textAlign: 'left',
-        padding: { md: '5px 0 0 250px', xs: '0 30px' }
+        padding: { md: '5px 0 0 250px', xs: '20px 0 0 50px' }
     },
     aboutWord: {
         fontSize: '25px',
@@ -108,7 +108,8 @@ const styles = {
         flexDirection: { md: 'row', xs: 'column' },
         alignItems: 'center',
         justifyContent: 'center',
-        width: '100%'
+        width: '100%',
+        gap:'20px'
     },
     boxTypoAbout: {
         display: 'flex',
@@ -134,6 +135,7 @@ const styles = {
         flexDirection: {md:'row', xs:'column'},
         justifyContent:'center',
         alignItems:'center',
-        padding:{md:'10px 270px', xs:'20px'}
+        padding:{md:'10px 270px', xs:'20px'},
+        gap:'20px'
     }
 }

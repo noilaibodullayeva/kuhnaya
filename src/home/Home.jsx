@@ -86,13 +86,13 @@ const styles = {
     },
     first_2: {
         backgroundImage: `url(${Img1})`,
-        width: '500px',
+        width: {md:'500px', xs:'100%'},
         backgroundRepeat: "no-repeat",
         height: '500px',
         backgroundSize: "cover",
         marginTop: 0,
         backgroundPositionY: 1,
-        display: { md: 'block', xs: 'none' }
+        display: 'block'
     },
     span1: {
         color: '#405357',

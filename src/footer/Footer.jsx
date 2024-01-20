@@ -44,13 +44,13 @@ export default function Footer() {
 const styles = {
   footerBox: {
     backgroundColor: '#577175',
-    width: {md:'100%', xs:'auto'},
+    width: { md: '100%', xs: 'auto' },
     display: 'flex',
-    flexDirection: {md:'row', xs:'column'},
+    flexDirection: { md: 'row', xs: 'column' },
     justifyContent: 'center',
-    alignItems: {md:'baseline', xs:'left'},
-    marginTop: '30px',
-    padding: {md:'30px 0', xs:'30px 15px'},
+    alignItems: { md: 'baseline', xs: 'left' },
+    margin: '30px 0 0 0',
+    padding: { md: '30px 0', xs: '30px 15px' },
     gap: '20px'
   },
   box2: {

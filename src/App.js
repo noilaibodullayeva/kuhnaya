@@ -5,6 +5,7 @@ import Bedroom from './bedroom/Bedroom';
 import Kitchen from './kitchen/Kitchen';
 import Decor from './decor/Decor';
 import Contact from './contact/Contact';
+import "./App.css"
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 

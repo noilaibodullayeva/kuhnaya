@@ -58,13 +58,13 @@ function Header() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
+                    width:'100%'
                 }}
             >
                 <Toolbar sx={{width:'100%'}}>
                     {isMatch ? (
                         <Box sx={{
                             display: 'flex',
-                            // flexDirection: 'row',
                             justifyContent: 'space-between',
                             width:'100%',
                             padding:'0 20px'

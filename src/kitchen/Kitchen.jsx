@@ -110,14 +110,15 @@ const styles = {
         color: '#405357',
         textAlign: 'left',
         mt: '100px',
-        ml: {md:'200px', xs:'40px'},
+        ml: {md:'220px', xs:'40px'},
     },
     KitchenBox: {
-        display: { md: 'grid', xs: 'flex' },
+        display: 'grid',
         gap: '20px',
-        gridTemplateColumns: 'auto auto auto auto',
+        gridTemplateColumns: {md:'auto auto auto auto', xs:'auto auto auto auto'},
         flexDirection: { md: 0, xs: 'column' },
-        padding: {md:'0 200px', xs:'0 30px'}
+        padding: {md:'0 220px', xs:'0 30px'},
+        // justifyContent: {md: ' none', xs:'center'}
     },
     typoProduct: {
         textTransform: 'uppercase',
@@ -129,7 +130,11 @@ const styles = {
         color: '#666'
     },
     boxInsideKitchen: {
-        ml: { md: 0, xs: '10%' }
+        display:'flex',
+        flexDirection:'column',
+        justifyContent:'center',
+        alignItems:'center',
+        width:{xs:'100%'}
     },
     interior: {
         width: '70%',

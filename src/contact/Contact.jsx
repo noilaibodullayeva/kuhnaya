@@ -13,14 +13,16 @@ export default function Contact() {
                 flexDirection: { md: 'row', xs: 'column' },
                 justifyContent: 'center',
                 alignItems: 'center',
-                padding: '0 200px'
+                padding: {md:'0 200px', xs:'0 10px'},
+                gap:'15px'
             }}>
                 <Box sx={{
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'left',
                     justifyContent: 'center',
-                    width: '500px'
+                    width: {md:'500px', xs:'100%'},
+                    padding: {md:0, xs:'10px'}
                 }}>
                     <Typography sx={styles.inputtext}>+7 (775) 000-00-00</Typography>
                     <Typography sx={styles.inputtext}>info@gmail.com</Typography>
@@ -31,7 +33,8 @@ export default function Contact() {
                     flexDirection: 'column',
                     alignItems: 'left',
                     justifyContent: 'left',
-                    width: '500px'
+                    width: {md:'500px', xs:'100%'},
+                    padding: {md:0, xs:'10px'}
                 }}>
                     <input type="text" placeholder='Name' className='inputs' />
                     <input type="text" placeholder='Email' className='inputs' />
@@ -54,7 +57,7 @@ const styles = {
         color: '#405357',
         textAlign: 'left',
         mt: '100px',
-        ml: { md: '250px', xs: '30px' },
+        ml: { md: '250px', xs: '10px' },
     },
     inputtext: {
         color: '#596D6F',
@@ -76,8 +79,8 @@ const styles = {
         fontFamily: 900,
         borderRadius: 'none',
         "&:hover": {
-            backgroundColor: '#405357',
-            color: '#fff',
+            backgroundColor: '#fff',
+            color: '#405357',
         },
     }
 }

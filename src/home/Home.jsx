@@ -118,11 +118,9 @@ const styles = {
         justifyContent: 'center',
         gap: '10px',
         marginTop: '10px'
-        // margin:'10px 250px'
     },
     second1: {
         backgroundImage: `url(${Img2})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '600px',
         backgroundSize: "cover",
@@ -131,7 +129,6 @@ const styles = {
         flex: '4'
     },
     second2: {
-        // width: '350px',
         flex: '4',
         height: '600px',
         marginTop: 0,
@@ -142,7 +139,6 @@ const styles = {
     },
     img1: {
         backgroundImage: `url(${Img3})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '300px',
         backgroundSize: "cover",
@@ -151,7 +147,6 @@ const styles = {
     },
     img2: {
         backgroundImage: `url(${Img4})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '300px',
         backgroundSize: "cover",
@@ -159,7 +154,6 @@ const styles = {
         backgroundPositionY: 1,
     },
     second3: {
-        // width: '350px',
         flex: '4',
         height: '600px',
         marginTop: 0,
@@ -170,7 +164,6 @@ const styles = {
     boxText: {
         backgroundColor: "#405357",
         height: '70px',
-        // width:'350px'
     },
     decor: {
         color: '#fff',
@@ -179,7 +172,6 @@ const styles = {
     },
     img3: {
         backgroundImage: `url(${Img5})`,
-        // width: '350px',
         flex: '4',
         backgroundRepeat: "no-repeat",
         height: '530px',
@@ -189,7 +181,6 @@ const styles = {
     },
     img4: {
         backgroundImage: `url(${Img6})`,
-        // width: '350px',
         flex: '4',
         backgroundRepeat: "no-repeat",
         height: '530px',
@@ -199,7 +190,6 @@ const styles = {
     },
     second5: {
         backgroundImage: `url(${Img7})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '600px',
         backgroundSize: "cover",
@@ -209,7 +199,6 @@ const styles = {
     },
     img6: {
         backgroundImage: `url(${Img8})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '300px',
         backgroundSize: "cover",
@@ -218,7 +207,6 @@ const styles = {
     },
     img7: {
         backgroundImage: `url(${Img9})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '300px',
         backgroundSize: "cover",
@@ -227,7 +215,6 @@ const styles = {
     },
     second11: {
         backgroundImage: `url(${Img10})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '600px',
         backgroundSize: "cover",
@@ -237,7 +224,6 @@ const styles = {
     },
     img11: {
         backgroundImage: `url(${Img11})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '300px',
         backgroundSize: "cover",
@@ -246,7 +232,6 @@ const styles = {
     },
     img21: {
         backgroundImage: `url(${Img12})`,
-        // width: '350px',
         backgroundRepeat: "no-repeat",
         height: '300px',
         backgroundSize: "cover",
@@ -255,7 +240,6 @@ const styles = {
     },
     img3: {
         backgroundImage: `url(${Img13})`,
-        // width: '350px',
         flex: '4',
         backgroundRepeat: "no-repeat",
         height: '530px',

@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import React from 'react'
 import Img15 from "../img/oqgul.webp"
 import Img16 from "../img/kitchen1.webp"

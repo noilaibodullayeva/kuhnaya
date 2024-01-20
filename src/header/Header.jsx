@@ -6,6 +6,7 @@ import {
     Typography,
     useMediaQuery,
     useTheme,
+    Box
 } from '@mui/material';
 import React, { useState } from 'react';
 import Drawercomponent from '../header/Drawercomponent';
@@ -59,14 +60,20 @@ function Header() {
                     alignItems: 'center',
                 }}
             >
-                <Toolbar>
+                <Toolbar sx={{width:'100%'}}>
                     {isMatch ? (
-                        <>
+                        <Box sx={{
+                            display: 'flex',
+                            // flexDirection: 'row',
+                            justifyContent: 'space-between',
+                            width:'100%',
+                            padding:'0 20px'
+                        }}>
                             <Typography sx={{ fontSize: '1.5rem', color: '#80A6AD' }}>
                                 Interior
                             </Typography>
                             <Drawercomponent />
-                        </>
+                        </Box>
                     ) : (
                         <>
                             <Tabs

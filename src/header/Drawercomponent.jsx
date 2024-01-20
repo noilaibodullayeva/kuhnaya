@@ -62,11 +62,9 @@ function Drawercomponent() {
                             <ListItemButton onClick={() => setOpenDrawer(false)} key={index}>
                                 <ListItemIcon>
                                     <ListItemText>
-                                        {Pages.map((page, index) => (
                                             <Link style={{ color: '#000' }} to={`${page.link}`}>
                                                 <Tab key={index} label={page?.name} />
                                             </Link>
-                                        ))}
                                     </ListItemText>
                                 </ListItemIcon>
                             </ListItemButton>

@@ -82,7 +82,7 @@ const styles = {
     first_1: {
         backgroundColor: '#80A6AD',
         height: '500px',
-        width: '500px',
+        width: {md:'500px', xs:'100%'},
     },
     first_2: {
         backgroundImage: `url(${Img1})`,

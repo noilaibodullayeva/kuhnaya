@@ -33,14 +33,14 @@ export default function About() {
                     <Box sx={styles.backAbout}></Box>
                 </Box>
                 <Box>
-                    <Typography sx={styles.aboutWord}>Answer the Questions</Typography>
+                    <Typography sx={styles.aboutWord2}>Answer the Questions</Typography>
                     <Box sx={styles.questionBox}>
                         <Box sx={{
                             display: 'flex',
                             flexDirection: { md: 'column', xs: 'column' },
                             alignItems: 'baseline',
                             justifyContent: 'center',
-                            width:'500px'
+                            width:'450px'
                         }}>
                             <Box sx={styles.quesztionBoxSm}>
                                 <Typography sx={styles.aboutWord}>How can we order?</Typography>
@@ -60,7 +60,7 @@ export default function About() {
                             flexDirection: { md: 'column', xs: 'column' },
                             alignItems: 'center',
                             justifyContent: 'center',
-                            width:'500px'
+                            width:'450px'
                         }}>
                             <Box sx={styles.quesztionBoxSm}>
                                 <Typography sx={styles.aboutWord}>How can we decline the order?</Typography>
@@ -84,11 +84,17 @@ export default function About() {
 }
 
 const styles = {
-    aboutWord: {
+    aboutWord2: {
         fontSize: '30px',
         color: '#405357',
         textAlign: 'left',
-        padding: { md: '10px', xs: '0 30px' }
+        padding: { md: '5px 0 0 250px', xs: '0 30px' }
+    },
+    aboutWord: {
+        fontSize: '25px',
+        color: '#405357',
+        textAlign: 'left',
+        padding: { md: '5px 0', xs: '0 30px' }
     },
     aboutWord1: {
         fontSize: '30px',
@@ -126,6 +132,8 @@ const styles = {
     questionBox : {
         display:'flex',
         flexDirection: {md:'row', xs:'column'},
-        justifyContent:'center'
+        justifyContent:'center',
+        alignItems:'center',
+        padding:{md:'10px 270px', xs:'20px'}
     }
 }

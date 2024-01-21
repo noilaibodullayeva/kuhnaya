@@ -78,11 +78,11 @@ const styles = {
         ml: {md:'200px', xs:'30px'},
     },
     KitchenBox: {
-        display: { md: 'grid', xs: 'flex' },
+        display: 'grid',
         gap: '20px',
         gridTemplateColumns: 'auto auto auto auto',
         flexDirection: { md: 0, xs: 'column' },
-        padding:{md:'0 200px', xs:'0 30px'}
+        padding: { md: '0 200px', xs: 0 }
     },
     typoProduct: {
         textTransform: 'uppercase',
@@ -94,7 +94,7 @@ const styles = {
         color: '#666'
     },
     boxInsideKitchen: {
-        ml: { md: 0, xs: '10%' }
+        ml: { md: 0, xs: '15%' }
     },
     interior: {
         width: '70%',

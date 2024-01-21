@@ -77,7 +77,7 @@ const styles = {
         ml: {md:'200px', xs:'30px'},
     },
     KitchenBox: {
-        display: { md: 'grid', xs: 'flex' },
+        display: 'grid',
         gap: '20px',
         gridTemplateColumns: 'auto auto auto auto',
         flexDirection: { md: 0, xs: 'column' },

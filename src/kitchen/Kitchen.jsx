@@ -118,7 +118,6 @@ const styles = {
         gridTemplateColumns: {md:'auto auto auto auto', xs:'auto auto auto auto'},
         flexDirection: { md: 0, xs: 'column' },
         padding: {md:'0 220px', xs:'0 30px'},
-        // justifyContent: {md: ' none', xs:'center'}
     },
     typoProduct: {
         textTransform: 'uppercase',

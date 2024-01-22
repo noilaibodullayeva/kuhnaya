@@ -10,12 +10,12 @@ export default function Contact() {
             <Typography sx={styles.kitchenn}>Contact Us</Typography>
             <Box sx={{
                 display: 'flex',
-                flexDirection: { md: 'row', xs: 'column' },
+                flexDirection: { md: 'row',sm:'column', xs: 'column' },
                 justifyContent: 'center',
                 alignItems: 'center',
                 padding: {md:'0 200px', xs:'0 10px'},
                 gap:'15px'
-            }}>
+            }} className="boxx">
                 <Box sx={{
                     display: 'flex',
                     flexDirection: 'column',
@@ -39,7 +39,7 @@ export default function Contact() {
                     <input type="text" placeholder='Name' className='inputs' />
                     <input type="text" placeholder='Email' className='inputs' />
                     <input type="text" placeholder='Phone' className='inputs' />
-                    <textarea type="text" placeholder='Send a massage' className='textarea' />
+                    <textarea row='10' columns='10' type="text" placeholder='Send a massage' className='textarea' />
                     <Button sx={styles.button} >Send</Button>
                 </Box>
             </Box>
@@ -71,7 +71,7 @@ const styles = {
         opacity: '1'
     },
     button: {
-        width: '300px',
+        width: {md:'300px', xs:'90%'},
         height: '40px',
         alignItems: 'right',
         backgroundColor: '#405357',

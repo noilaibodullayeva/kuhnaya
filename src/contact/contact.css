@@ -7,8 +7,10 @@
     outline: none;
 }
 
+
+
 .textarea {
-    width: 450px;
+    width: 450px !important;
     height: 140px;
     border: 2px solid #777;
     padding-left: '25px';
@@ -16,4 +18,43 @@
     margin: 10px 0;
     padding: 10px;
     outline: none;
+    resize: none;
+}
+
+@media screen and (max-width: 600px) {
+    .inputs {
+        width: 90%
+    }
+
+    .textarea {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .inputs {
+        width: 100%
+    }
+
+    .textarea {
+        width: 100%;
+    }
+    .boxx{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .inputs {
+        width: 100%
+    }
+
+    .textarea {
+        width: 100%;
+    }
+    .boxx{
+        display:flex;
+        flex-direction: column;
+    }
 }

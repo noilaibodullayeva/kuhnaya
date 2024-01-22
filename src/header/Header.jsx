@@ -58,16 +58,20 @@ function Header() {
                     display: 'flex',
                     justifyContent: 'center',
                     alignItems: 'center',
-                    width:'100%'
+                    width: '100%'
                 }}
             >
-                <Toolbar sx={{width:'100%'}}>
+                <Toolbar sx={{
+                    width: '100%',
+                    display: 'flex',
+                    justifyContent: 'space-evenly'
+                }}>
                     {isMatch ? (
                         <Box sx={{
                             display: 'flex',
                             justifyContent: 'space-between',
-                            width:'100%',
-                            padding:'0 20px'
+                            width: '100%',
+                            padding: '0 20px'
                         }}>
                             <Typography sx={{ fontSize: '1.5rem', color: '#80A6AD' }}>
                                 Interior

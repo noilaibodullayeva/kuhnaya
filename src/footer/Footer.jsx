@@ -1,5 +1,5 @@
 import { Facebook, Instagram, Twitter } from '@mui/icons-material'
-import { Box, Button, IconButton, TextField, Typography } from '@mui/material'
+import { Box, Button, IconButton, Input, TextField, Typography } from '@mui/material'
 import React from 'react'
 import Img15 from "../img/cards.png"
 
@@ -28,11 +28,10 @@ export default function Footer() {
       </Box>
       <Box sx={styles.box2}>
         <Typography sx={styles.number}>Contact Us</Typography>
-        <TextField
+        <textarea
           id="outlined-textarea"
-          label="Enter your email"
           placeholder="Enter your email"
-          multiline
+          // multiline
           sx={styles.input}
         />
         <Button sx={styles.button}>OK</Button>
@@ -70,10 +69,14 @@ const styles = {
   input: {
     backgroundColor: '#D6D6D6',
     color: '#666',
-    width: '350px',
+    width: {md:'350px', xs:'90%'},
+    borderRadius:'20px',
+    "&:focus":{
+      borderRadius:'20px !important' ,
+    }
   },
   button: {
-    width: '350px',
+    width: {md:'350px', xs:'90%'},
     backgroundColor: '#405357',
     color: '#fff',
     fontWeight: '800',
